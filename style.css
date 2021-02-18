@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.banner
+{
+    position: relative;
+    background: url(banner.jpg);
+    min-height: 90vh;
+    background-size: cover;
+    background-position: right;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+.textBox h2
+{
+    color: white;
+    font-size: 3rem;
+    font-weight: 500;
+    line-height: 1.5em;
+}
+.textBox h3
+{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 2em;
+}
+.navbar-brand
+{
+    font-size: 2rem;
+    font-weight: 600;
+}
+.nav-link
+{
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.navbar
+{
+    padding: 20px 0;
+}
+header
+{
+    background-color: rgb(5, 0, 0) !important;
+}
+
+section
+{
+    height: auto;
+    padding-bottom: 75px;
+}
+.titleStyle
+{
+    text-align: center;
+    margin: 0 0 45px 0;
+    padding: 50px 0 0 0;
+    font-weight: 700;
+    font-size: 42px;
+}
+.aboutSection
+{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2.5rem;
+    align-items: center;
+    justify-content: center;
+}
+.right h4
+{
+    font-size: 26px;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+.right p
+{
+    font-size: 18px;
+    font-weight: 400;
+}
+.left img
+{
+    max-width: 100%;
+    vertical-align: middle;
+    height: auto;
+}
+#services
+{
+    background: #111;
+}
+.serviceHeader
+{
+    color: white;
+    text-align: center;
+    margin: 0 0 30px 0;
+    padding: 50px 0 0 0;
+}
+.serviceHeader h1
+{
+    font-weight: 700;
+    font-size: 42px;
+}
+.serviceHeader p
+{
+    font-weight: 400;
+    font-size: 20px;
+}
+.card img
+{
+    width: 100px;
+    margin: 0 auto;
+    padding: 25px 0;   
+}
+.card
+{
+    margin: 25px;
+    color: white;
+    background-color: #222222;
+    border-radius: 10px;
+}
+
+/* 111111 */
+
+
+
+@media screen and (max-width: 992px) {
+    .aboutSection{
+        grid-template-columns:  1fr;
+    }
+}
